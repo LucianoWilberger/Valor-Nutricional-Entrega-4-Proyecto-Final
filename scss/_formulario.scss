@@ -1,0 +1,56 @@
+//Formulario general
+
+
+.formRegister{
+    width: 400px;
+    background-color: #4ac500;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ede06e;
+}
+
+.formRegister h3{
+    height: 40px;
+    text-align: center;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.controls{
+    width: 100%;
+    background-color: #ede06e;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: solid black 1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.formRegister p{
+    height: 40px;
+    text-align: center;
+    font-size: 17px;
+    line-height: 10px;
+    
+}
+
+.formRegister a{
+    color: #ede06e;
+    text-decoration: none;
+}
+.formRegister a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.formRegister .botons{
+    width: 100%;
+    background-color: #ede06e;
+    color: black;
+    padding: 12px;
+    margin: 16px 0;
+    font-size: 16px;
+}

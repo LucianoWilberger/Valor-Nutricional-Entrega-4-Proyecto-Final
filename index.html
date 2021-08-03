@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- El lenguaje del documento-->
+    <head> <!--Cabeza de pagina, toda esta informacion es para el navegador-->
+        <title>Valor Nutricional</title> <!--Titulo de la pestaña/pagina web-->
+        <meta charset="utf-8"> <!--La zona de idioma global-->
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0"> <!--Para la comptabilidad de diferentes dispotisitivos tantos moviles como computadoras-->
+        <meta name="description" content="Descripcion de Valor Nutricional"/> <!--Informacion para motores de busqueda, descripcion de la pagina-->
+        <meta name="author" content="Luciano Wilberger"/> <!--Informacion para el navegador, motores de busqueda, autor-->
+        <meta name="keywords" content="Valor nutricional, verduras, frutas, frutos secos, recetas, nuestras redes"/> <!--Palabras clave para motores de busqueda-->
+
+        
+        <!--Toda la seccion de arriba inclui el SEO-->
+        
+        <link rel="icon" type="image/png" sizes="192x192" href="images/icopage.png"> <!--Icono de la pagina en el navegador-->
+        <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> <!--Animaciones con los Scripts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet"> <!--Fuentes de texto de google-->
+        <link rel="stylesheet" href="css/style.css">
+
+         </head>
+
+         <body>
+             <header>
+                 <div class="buscador">
+                     <input type="text" name="Buscador" placeholder="Buscador">
+                 </div>
+                 <h1 class="animate__animated animate__backInLeft"> Valor Nutricional 🥑</h1> <!--Titulo principal de la pagina--> 
+
+                 <a href="index.html">  <!--Enlace para que se pueda presionar en el logo y vaya directo al index.html-->
+                 <img id="imgLog" class="animate__animated animate__backInRight" src="images/logo.png" alt="Logo de pagina"></a> <!--Logo de pagina-->
+                 <nav class="grillaMenu">
+                    <div><a class="noText"  href="sobrenoso.html">Sobre Nosotros</a></div>
+                    <div><a class="noText"  href="contactanos.html">Contactanos!</a></div>
+                    <div><a class="noText" href="recetas.html">Recetas</a></div>
+                
+                </nav>
+
+            
+
+             </header>
+             <hr>
+
+             <main>
+                 
+              <ul class="menuMain"> <!--Lista desordenada-->
+              <section>
+             <li><a class="noText" href="frutas.html"> Frutas 🍓</a></li> <!--Item de lista desordenada con enlaces a los otros HTML-->
+              <a href="frutas.html"><img class="bordeRedondeado" src="images/frutas.jpg"  alt="Imagen de frutas"></a>
+             </section>
+        
+             <section>
+              <li><a  class="noText"    href="verduras.html"> Verduras 🥦</a></li>
+              <a href="verduras.html"> <img class="bordeRedondeado" src="images/verduras.jpg" " alt="Imagen de verduras"> </a>
+             </section>
+
+             <section>
+             <li><a class="noText"  href="frutosecos.html">Frutos secos 🥜</a></li>
+             <a href="Frutos secos.html"><img class="bordeRedondeado" src="images/frutsecos.jpg"  alt="Imagen de frutos secos"></a> 
+             </section>
+
+             <section>
+             <li><a class="noText" href="legumbres.html"> Legumbres 🌱</a></li>
+             <a href="Legumbres.html"> <img class="bordeRedondeado" src="images/legumbres.jpg"  alt="Imagenen de legumbres"> </a>
+             </section>  
+             </ul> <!--Cierre de lista desordenada-->
+
+             <a class="noText" href="Recetas.html"><h2>Recetas veganas y vegetarianas</h2></a>
+
+             <article>
+
+             <div class="slide">
+                 <input type="radio" name="image-slide" id="1" hidden>
+                 <input type="radio" name="image-slide" id="2" hidden>
+                 <input type="radio" name="image-slide" id="3" hidden>
+                 
+                 <div class="slidex">
+
+                    <div class="slideItem">
+                        <img class="imgSlide" src="images/vegan.jpg" alt="">
+                    </div>
+
+                    <div class="slideItem">
+                        <img class="imgSlide" src="images/vegetarian.jpg" alt="">
+                    </div>
+
+                    <div class="slideItem">
+                        <img class="imgSlide" src="images/vegann.jpg" alt="">
+                    </div>
+
+                 </div>
+
+                 <div class="pagination">
+                     <label class="pagination-item" for="1">
+                         <img class="imgSlide" src="images/vegan.jpg" alt="">
+                    </label>
+
+                     <label class="pagination-item" for="2">
+                        <img class="imgSlide" src="images/vegetarian.jpg" alt="">
+                   </label>
+
+                     <label class="pagination-item" for="3">
+                    <img class="imgSlide" src="images/vegann.jpg" alt="">
+                   </label>
+
+                 </div>
+             </div>
+
+            </article>
+            
+        
+
+             </main>
+             <hr>
+
+             <footer>
+                <section class="formRegister"> <!--Seccion de inicio de formulario-->
+                    <p> Para recibir recetas via email registrate aqui: </p>
+                     <input class="controls" type="text" name="Nombres" id="nombres" placeholder="Ingrese su nombre">
+                     <input class="controls" type="text" name="Nombres" id="apellido" placeholder="Ingrese su apellido">
+                     <input class="controls" type="email" name="Nombres" id="correo" placeholder="Ingrese su Email">
+                     <input class="controls" type="password" name="Nombres" id="password" placeholder="Ingrese su Contraseña">
+                     <h3>Estoy de acuerdo con <a href="Termino.html"> Terminos y condiciones</a></h3>
+                     <input class="botons" type="submit" value="Registrar">
+                     </section>
+
+                     
+                     
+        <div class="butonRedes">
+            <input type="button" class="btnR" value="Descarga nuestra APP!">
+
+        </div>
+         <!--Tengo planeado aprender a desarrollar aplicaciones y a futuro hacer una app al estilo de Fatsecret o algo relacionado a una calculadora de calorias-->
+
+         <h4><a href="index.html"><img src="images/home.png" height="40px" width="40px" alt=""></a></h4>
+
+         <div><h4>Nuestras Redes</h4></div>
+
+        <aside> <!--Seccion hecha con grillas para las redes sociales-->
+          <section class="redesV">
+         
+          
+          <div class="bordeRedes"><a   href="https://web.whatsapp.com/"><img class="imgRedes" src="images/wsplogo.png" alt="Logo de Whatsapp"></a></div>
+          <div class="bordeRedes"><a   href="https://www.facebook.com/"><img class="imgRedes" src="images/fblogo.png"  alt="Logo de Facebook"></a></div>
+          <div class="bordeRedes"><a   href="https://www.instagram.com/"><img class="imgRedes" src="images/iglogo.png" alt="Logo de Instagram"></a></div>
+          
+          </section>
+          
+            
+            <p>© Valor Nutricional 2021 by Luciano Wilberger Todos los derechos reservados. </p> <!--Autor y derechos, año de creacion-->
+
+       
+          
+      </aside>
+
+
+             </footer>
+         </body>
+
+         </html>
+

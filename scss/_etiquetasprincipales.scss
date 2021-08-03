@@ -1,0 +1,116 @@
+//Etiquetas de HTML
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #bbf0f3;
+    background-image: linear-gradient(315deg, #bbf0f3 0%, #f6d285 74%);
+    font-family: 'Dancing Script', cursive;
+}
+
+header{
+    div{
+        input{
+            font-family: 'Dancing Script', cursive;
+            font-size: 20px;
+        }
+    }
+}
+
+h1{
+    color: #ffffff;
+    font-size: 72px;
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-size: 50px;
+    background-color: #4ac500;
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    color: #ede06e;
+    border: 1px solid black;
+    align-items: center;
+
+}
+
+//Seccion Main en etiquetas principales*/
+/*Seccion main* en etiquetas principales*/
+
+ul{
+    section{
+        li{
+            a:hover{
+                color: white;
+            }
+        }
+    }
+}
+
+//Seccion de Header en etiquetas principales
+
+/*Seccion de Header en etiquetas principales*/
+nav{
+    div{
+        background-color: #7ee8fa;
+        background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+        margin: 2px;
+        padding: 2px;
+        border: 1px solid black;
+        font-size: 25px;
+    }
+}
+
+header{
+    nav{
+        div:hover{
+            background-color: #eec0c6;
+            background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+        }
+    }
+} 
+
+
+//Seccion Footer en etiquetas principales
+/*Seccion Footer en etiquetas principales*/
+
+h4{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+
+    img{
+        height: 50px;
+        width: 50px;
+        
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+}
+
+aside{
+    p{
+        text-align: center;
+        font-size: 30px;
+    }
+}
+
+//Fin de etiquetas principales en html
+/*Fin de etiquetas principales  en html*/
+
+
+   
+    
+    
+

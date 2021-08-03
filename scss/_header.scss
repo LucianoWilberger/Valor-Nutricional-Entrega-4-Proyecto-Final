@@ -1,0 +1,29 @@
+//Seccion Header
+
+.buscador{
+    width: 100%;
+    display: grid;
+    justify-content: end;
+    justify-items: end;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.grillaMenu{
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    
+    
+}
+
+.noText{
+    text-decoration: none;
+    color: black;
+    
+}
+
+#imgLog{
+    height: 300px;
+    width: 300px;
+}
